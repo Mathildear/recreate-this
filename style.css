@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@700&display=swap");
+
+body {
+  font-family: "Dosis", sans-serif;
+  color: white;
+  background-color: #d85650;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1.5px solid #c24d47;
+  padding: 0% 3% 0% 3%;
+  margin: 1rem;
+}
+
+.logo h1 {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.logo {
+  gap: 0.2rem;
+}
+
+.miniflex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.navbuttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+}
+
+.navbuttons button {
+  cursor: pointer;
+  padding: 0.3rem;
+}
+
+.navbuttons button.miniflex p {
+  display: none;
+}
+
+button {
+  border: none;
+  border-radius: 5px;
+  background-color: #e1756f;
+}
+
+button p {
+  color: white;
+  font-weight: bold;
+}
+
+@media only screen and (min-width: 600px) {
+  .navbuttons button.miniflex p {
+    display: inline;
+    font-weight: lighter;
+  }
+}
