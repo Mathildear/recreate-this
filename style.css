@@ -58,6 +58,62 @@ button p {
   font-weight: bold;
 }
 
+.timerbox {
+  background-color: #e1756f;
+  border-radius: 5px;
+  margin: 0 1rem 0 1rem;
+}
+
+.options {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem 1rem 0 1rem;
+}
+
+.options button {
+  border-radius: 5px;
+}
+.options button p {
+  margin: 0.5rem;
+  font-weight: lighter;
+  font-size: 1rem;
+}
+
+.options button:hover {
+  border-radius: 5px;
+  background-color: #bc5853;
+}
+
+.options button p:hover {
+  font-weight: bolder;
+}
+
+.timerbox p span {
+  font-size: 6rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.startbutton {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 1.5rem;
+}
+
+.start {
+  background-color: white;
+  box-shadow: 0 7px rgb(240, 239, 239);
+}
+
+.start p {
+  color: #d85650;
+  font-size: 1.5rem;
+  padding: 1rem 2rem 1rem 2rem;
+  margin: 0;
+  font-family: "Dosis", sans-serif;
+  width: 8rem;
+}
+
 @media only screen and (min-width: 600px) {
   .navbuttons button.miniflex p {
     display: inline;
