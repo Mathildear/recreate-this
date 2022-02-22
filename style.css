@@ -146,6 +146,34 @@ button p {
   margin: auto 0 auto 0;
 }
 
+.alltasks {
+  margin-top: 1rem;
+}
+.task {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.task p {
+  color: black;
+}
+
+.miniflexcolumn {
+  display: flex;
+  gap: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.seemorewhite {
+  background-color: white;
+  border: 1px solid whitesmoke;
+  border-radius: 5px;
+  margin: auto 0 auto 0;
+}
+
 @media only screen and (min-width: 600px) {
   .navbuttons button.miniflex p {
     display: inline;
