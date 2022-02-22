@@ -154,6 +154,7 @@ button p {
   display: flex;
   justify-content: space-between;
   margin-bottom: 0.5rem;
+  border-radius: 5px;
 }
 
 .task:hover {
@@ -165,6 +166,11 @@ button p {
 }
 
 .task .miniflexcolumn p {
+  color: gray;
+  font-size: 1rem;
+}
+
+.task .miniflexcolumn p:hover {
   color: black;
   font-size: 1rem;
 }
@@ -191,6 +197,16 @@ button p {
   border: 1px solid whitesmoke;
   border-radius: 5px;
   margin: auto 0 auto 0;
+}
+
+.addtasks {
+  background-color: #bc5853;
+  border: 1px dashed #e88f8b;
+  display: flex;
+  justify-content: center;
+  font-size: 1rem;
+  gap: 0.5rem;
+  border-radius: 5px;
 }
 
 @media only screen and (min-width: 600px) {
