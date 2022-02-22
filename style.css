@@ -215,10 +215,16 @@ button p {
   background-color: #e1756f;
   margin-top: 2rem;
   border-top: 2px solid #e88f8b;
+  gap: 1rem;
 }
 
-.finish p {
+.finish p div {
   color: whitesmoke;
+  font-size: 0.7rem;
+}
+.finish p span {
+  font-size: 1rem;
+  color: white;
 }
 
 @media only screen and (min-width: 600px) {
