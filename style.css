@@ -37,6 +37,7 @@ nav {
 
 .logo {
   gap: 0.2rem;
+  cursor: pointer;
 }
 
 .miniflex {
@@ -65,6 +66,7 @@ button {
   border: none;
   border-radius: 5px;
   background-color: #e1756f;
+  cursor: pointer;
 }
 
 button p {
@@ -96,6 +98,7 @@ button p {
 .options button:hover {
   border-radius: 5px;
   background-color: #bc5853;
+  font-weight: bolder;
 }
 
 .options button p:hover {
@@ -118,6 +121,11 @@ button p {
 .start {
   background-color: white;
   box-shadow: 0 7px rgb(240, 239, 239);
+}
+
+.start:active {
+  box-shadow: none;
+  transform: translateY(7px);
 }
 
 .start p {
@@ -165,6 +173,10 @@ button p {
   margin: auto 0 auto 0;
 }
 
+.seemore:hover {
+  cursor: pointer;
+}
+
 .alltasks {
   margin-top: 1rem;
 }
@@ -179,6 +191,8 @@ button p {
 .task:hover {
   border-left: 4px solid black;
   color: black;
+  font-weight: bold;
+  cursor: pointer;
 }
 
 .task:active {
@@ -190,7 +204,7 @@ button p {
   font-size: 1rem;
 }
 
-.task .miniflexcolumn p:hover {
+.task .miniflexcolumn:hover {
   color: black;
   font-size: 1rem;
 }
@@ -228,6 +242,7 @@ button p {
   gap: 0.5rem;
   border-radius: 5px;
   margin: 0 1rem 0 1rem;
+  cursor: pointer;
 }
 
 .finish {
