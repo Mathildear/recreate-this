@@ -133,6 +133,19 @@ button p {
   font-size: 0.9rem;
 }
 
+.taskheader {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 1rem 0 1rem;
+  border-bottom: 2px solid #e88f8b;
+}
+
+.seemore {
+  background-color: #e1756f;
+  border-radius: 5px;
+  margin: auto 0 auto 0;
+}
+
 @media only screen and (min-width: 600px) {
   .navbuttons button.miniflex p {
     display: inline;
