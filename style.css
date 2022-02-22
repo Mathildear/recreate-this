@@ -22,7 +22,7 @@ nav {
   background-color: #d85650;
 }
 
-.logo h1 {
+.logo p {
   font-size: 1.5rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -166,6 +166,7 @@ button p {
 
 .task:hover {
   border-left: 4px solid black;
+  color: black;
 }
 
 .task:active {
