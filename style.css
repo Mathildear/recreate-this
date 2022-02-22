@@ -216,13 +216,14 @@ button p {
   margin-top: 2rem;
   border-top: 2px solid #e88f8b;
   gap: 1rem;
+  align-items: center;
 }
 
-.finish p div {
+.finish p.smalltext {
   color: whitesmoke;
   font-size: 0.7rem;
 }
-.finish p span {
+.finish p.smalltext span {
   font-size: 1rem;
   color: white;
 }
