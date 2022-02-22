@@ -114,6 +114,25 @@ button p {
   width: 8rem;
 }
 
+.workingon {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-weight: lighter;
+}
+
+.workingon p:first-child {
+  font-size: 0.7rem;
+  font-weight: lighter;
+  color: #e88f8b;
+  margin-bottom: 0;
+}
+
+.workingon p:last-child {
+  margin-top: 0.2rem;
+  font-size: 0.9rem;
+}
+
 @media only screen and (min-width: 600px) {
   .navbuttons button.miniflex p {
     display: inline;
