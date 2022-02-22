@@ -66,7 +66,7 @@ button p {
 
 .options {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   padding: 1rem 1rem 0 1rem;
 }
 
@@ -76,7 +76,7 @@ button p {
 .options button p {
   margin: 0.5rem;
   font-weight: lighter;
-  font-size: 1rem;
+  font-size: 0.7rem;
 }
 
 .options button:hover {
