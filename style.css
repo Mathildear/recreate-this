@@ -3,7 +3,13 @@
 body {
   font-family: "Dosis", sans-serif;
   color: whitesmoke;
+  background-color: white;
+  margin: 0;
+}
+
+.redbox {
   background-color: #d85650;
+  padding: 2rem 0 2rem 0;
 }
 
 nav {
@@ -12,7 +18,8 @@ nav {
   align-items: center;
   border-bottom: 1.5px solid #c24d47;
   padding: 0% 3% 0% 3%;
-  margin: 1rem;
+  margin: 0;
+  background-color: #d85650;
 }
 
 .logo h1 {
@@ -153,7 +160,7 @@ button p {
   background-color: white;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 0.5rem;
+  margin: 0 1rem 0.5rem 1rem;
   border-radius: 5px;
 }
 
@@ -207,16 +214,17 @@ button p {
   font-size: 1rem;
   gap: 0.5rem;
   border-radius: 5px;
+  margin: 0 1rem 0 1rem;
 }
 
 .finish {
   display: flex;
   justify-content: center;
   background-color: #e1756f;
-  margin-top: 2rem;
   border-top: 2px solid #e88f8b;
   gap: 1rem;
   align-items: center;
+  margin: 2rem 1rem 0 1rem;
 }
 
 .finish p.smalltext {
