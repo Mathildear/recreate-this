@@ -44,6 +44,8 @@ nav {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 .navbuttons {
@@ -368,8 +370,9 @@ footer div p {
 
 @media only screen and (min-width: 600px) {
   .navbuttons button.miniflex {
-    display: inline;
+    display: flex;
     font-weight: lighter;
+    align-items: center;
   }
 }
 @media only screen and (min-width: 500px) {
@@ -399,5 +402,11 @@ footer div p {
   .whitearea {
     grid-column: 2/3;
     grid-row: 2/3;
+  }
+  .miniflex {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
