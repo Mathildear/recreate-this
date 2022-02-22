@@ -209,6 +209,18 @@ button p {
   border-radius: 5px;
 }
 
+.finish {
+  display: flex;
+  justify-content: center;
+  background-color: #e1756f;
+  margin-top: 2rem;
+  border-top: 2px solid #e88f8b;
+}
+
+.finish p {
+  color: #e88f8b;
+}
+
 @media only screen and (min-width: 600px) {
   .navbuttons button.miniflex p {
     display: inline;
