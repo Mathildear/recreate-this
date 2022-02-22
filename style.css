@@ -2,7 +2,7 @@
 
 body {
   font-family: "Dosis", sans-serif;
-  color: white;
+  color: whitesmoke;
   background-color: #d85650;
 }
 
@@ -54,7 +54,7 @@ button {
 }
 
 button p {
-  color: white;
+  color: whitesmoke;
   font-weight: bold;
 }
 
@@ -218,7 +218,7 @@ button p {
 }
 
 .finish p {
-  color: #e88f8b;
+  color: whitesmoke;
 }
 
 @media only screen and (min-width: 600px) {
