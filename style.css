@@ -67,10 +67,15 @@ button {
   border-radius: 5px;
   background-color: #e1756f;
   cursor: pointer;
+  color: whitesmoke;
+  font-weight: lighter;
 }
 
-button p {
-  color: whitesmoke;
+button:hover {
+  font-weight: bold;
+}
+
+button:active {
   font-weight: bold;
 }
 
@@ -88,20 +93,15 @@ button p {
 
 .options button {
   border-radius: 5px;
-}
-.options button p {
   margin: 0.5rem;
   font-weight: lighter;
   font-size: 0.7rem;
+  padding: 0.8rem;
 }
 
 .options button:hover {
   border-radius: 5px;
   background-color: #bc5853;
-  font-weight: bolder;
-}
-
-.options button p:hover {
   font-weight: bolder;
 }
 
@@ -121,20 +121,18 @@ button p {
 .start {
   background-color: white;
   box-shadow: 0 7px rgb(240, 239, 239);
-}
-
-.start:active {
-  box-shadow: none;
-  transform: translateY(7px);
-}
-
-.start p {
   color: #d85650;
   font-size: 1.5rem;
   padding: 1rem 2rem 1rem 2rem;
   margin: 0;
   font-family: "Dosis", sans-serif;
   width: 8rem;
+  font-weight: bolder;
+}
+
+.start:active {
+  box-shadow: none;
+  transform: translateY(7px);
 }
 
 .workingon {
@@ -369,7 +367,7 @@ footer div p {
 }
 
 @media only screen and (min-width: 600px) {
-  .navbuttons button.miniflex p {
+  .navbuttons button.miniflex {
     display: inline;
     font-weight: lighter;
   }
