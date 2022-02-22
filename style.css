@@ -302,6 +302,52 @@ article ul li::before {
   margin-left: -1em;
 }
 
+footer {
+  border-top: 2px solid whitesmoke;
+}
+
+footer div p {
+  color: #4a0f13;
+  font-weight: bold;
+  line-height: 1.6em;
+  font-size: 0.7rem;
+}
+
+.miniflex2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.icon {
+  width: 25px;
+  height: 25px;
+}
+
+.miniflex3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.miniflex3 p {
+  font-weight: lighter;
+  color: gray;
+}
+
+.miniflex3 p:first-child {
+  font-size: 1rem;
+  color: #4a0f13;
+}
+
+.miniflex3 p span {
+  color: #d85650;
+  font-weight: bold;
+}
+
 @media only screen and (min-width: 600px) {
   .navbuttons button.miniflex p {
     display: inline;
