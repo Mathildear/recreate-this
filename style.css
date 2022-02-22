@@ -158,7 +158,7 @@ button p {
 }
 
 .task:hover {
-  border-left: 3px solid black;
+  border-left: 4px solid black;
 }
 
 .task:active {
