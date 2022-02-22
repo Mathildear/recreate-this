@@ -156,8 +156,26 @@ button p {
   margin-bottom: 0.5rem;
 }
 
-.task p {
+.task:hover {
+  border-left: 3px solid black;
+}
+
+.task:active {
+  border-left: 3px solid black;
+}
+
+.task .miniflexcolumn p {
   color: black;
+  font-size: 1rem;
+}
+
+.miniflexcolumn p.numbers {
+  color: gray;
+  font-size: 0.7rem;
+}
+
+.miniflexcolumn span {
+  font-size: 1rem;
 }
 
 .miniflexcolumn {
@@ -165,6 +183,7 @@ button p {
   gap: 1rem;
   margin-left: 1rem;
   margin-right: 1rem;
+  align-items: center;
 }
 
 .seemorewhite {
