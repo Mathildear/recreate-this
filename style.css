@@ -10,6 +10,11 @@ body {
 
 .redbox {
   background-color: #d85650;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.forgrid {
   padding: 2rem 0 2rem 0;
 }
 
@@ -70,7 +75,7 @@ button p {
 .timerbox {
   background-color: #e1756f;
   border-radius: 5px;
-  margin: 0 1rem 0 1rem;
+  margin: 0rem 1rem 0rem 1rem;
 }
 
 .options {
@@ -232,7 +237,7 @@ button p {
   border-top: 2px solid #e88f8b;
   gap: 1rem;
   align-items: center;
-  margin: 2rem 1rem 0 1rem;
+  margin: 2rem 1rem 3rem 1rem;
 }
 
 .finish p.smalltext {
@@ -352,5 +357,34 @@ footer div p {
   .navbuttons button.miniflex p {
     display: inline;
     font-weight: lighter;
+  }
+}
+@media only screen and (min-width: 500px) {
+  header {
+    display: flex;
+    justify-content: center;
+    background-color: #d85650;
+  }
+  nav {
+    width: 500px;
+  }
+  main {
+    display: grid;
+    grid-template-columns: 1fr 500px 1fr;
+  }
+  #firstcolumn {
+    grid-column: 1/2;
+    background-color: #d85650;
+  }
+  .redbox {
+    grid-column: 2/3;
+  }
+  #lastcolumn {
+    grid-column: 3/4;
+    background-color: #d85650;
+  }
+  .whitearea {
+    grid-column: 2/3;
+    grid-row: 2/3;
   }
 }
